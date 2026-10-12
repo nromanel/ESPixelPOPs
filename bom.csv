@@ -1,14 +1,14 @@
-Qty,Ref,Value,Package,Notes
-1,U1,LD1117V33,TO-220,"3.3 V regulator. Tab is VOUT and faces the terminal. Square pad is pin 1 GND."
-1,IC1,LM78L05,TO-92,"12 V pixels only. Flat faces R1/R2. Omit for 5 V pixels and jumper pads 1 and 3."
-1,Q1,2N7000,TO-92,"Flat faces the terminal. Top pad source, bottom pad drain, middle pad gate."
-1,D1,1N4148,DO-35,"Band (cathode) toward the serial header."
-2,"R1,R2",330 ohm 1/4W,axial 7.6 to 10 mm,"R2 is the left resistor."
-1,C1,0.1 uF,ceramic 2.54 mm,50 V disc or MLCC
-1,C2,220 uF 16 V,radial 5 mm,"Form leads to 2.54 mm. Square pad is positive."
-1,S1,6 mm tact,6x6 mm through-hole,Fits only one way
-1,JP1,1x6 male header,2.54 mm,"GND CTS VCC RX TX DTR left to right. Connect adapter GND, TXD to RX, RXD to TX."
-1,U2,2x4 female socket,2.54 mm,"ESP-01. Antenna hangs off the right edge."
-1,J1,5-pos screw terminal,3.81 mm,"Wire entries face off the left edge. 1 VCC, 2 GND, 3 GND, 4 DATA, 5 VCC."
-1,,ESP-01,module,"1 MB flash is enough for ESPixelStick 3.2. Not supported by v4."
-2,,M3 mounting hole,3.2 mm,25 mm apart, diagonally
+Qty,Ref,Value,Package,DigiKey,Notes
+1,U1,LD1117V33,TO-220,497-1492-5-ND,"3.3 V regulator. Tab is VOUT and faces the terminal. Square pad is pin 1 GND."
+1,IC1,LM78L05,TO-92,497-2952-ND,"12 V pixels only. Flat faces R1/R2. Omit for 5 V pixels and jumper pads 1 and 3."
+1,Q1,2N7000,TO-92,2N7000FS-ND,"Flat faces the terminal. Top pad source, bottom pad drain, middle pad gate."
+1,D1,1N4148,DO-35,1N4148FS-ND,"Band (cathode) toward the serial header."
+2,"R1,R2",330 ohm 1/4W,axial 7.6 to 10 mm,CF14JT330RCT-ND,"R2 is the left resistor."
+1,C1,0.1 uF,ceramic 2.54 mm,BC5137-ND,"50 V disc or MLCC. Vishay K104K10X7RF53L2, 2.5 mm lead spacing."
+1,C2,220 uF 16 V,radial 6.3 mm,399-6566-ND,"KEMET ESH227M016AE3AA. 2.5 mm lead spacing (no forming). Square pad is positive."
+1,S1,6 mm tact,6x6 mm through-hole,450-1650-ND,Fits only one way
+1,JP1,1x6 male header,2.54 mm,2223-SSK01-MPH-254-A6-ND,"GND CTS VCC RX TX DTR left to right. Connect adapter GND, TXD to RX, RXD to TX."
+1,U2,2x4 female socket,2.54 mm,2223-SSK04-FPH-254-B4-ND,"ESP-01. Antenna hangs off the right edge."
+1,J1,5-pos screw terminal,3.81 mm,2057-EBWA-05-B-ND,"Adam Tech EBWA-05-B (3.81 mm). Not EBWA-05-A (3.5 mm). Wire entries face off the left edge. 1 VCC, 2 GND, 3 GND, 4 DATA, 5 VCC."
+1,,ESP-01,module,,"1 MB flash is enough for ESPixelStick 3.2. Not supported by v4."
+2,,M3 mounting hole,3.2 mm,,25 mm apart, diagonally

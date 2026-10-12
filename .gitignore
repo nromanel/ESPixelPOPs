@@ -1,4 +1,5 @@
 .history/
+gerber/
 *.kicad_prl
 *~
 *.lck
