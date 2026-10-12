@@ -11,8 +11,8 @@ Every part on the board is through-hole. Open `ESPixelPOPs.kicad_pcb` in KiCad
 8 and run Edit, Fill All Zones before ordering. GND is already traced on the
 back; the zone is the pour.
 
-- [ESPixel Pops project](https://zappedmyself.com/projects/espixelpops/)
-- [Original ESPixel](https://github.com/madsci1016/ESPixel)
+- [ESPixel Pops project](https://zappedmyself.com/projects/espixelpops/) — [@packetbob](https://github.com/packetbob)
+- [Original ESPixel](https://github.com/madsci1016/ESPixel) — [@madsci1016](https://github.com/madsci1016)
 
 ## How it matches the build guide
 
