@@ -1,0 +1,6 @@
+.history/
+*.kicad_prl
+*~
+*.lck
+.DS_Store
+__pycache__/
